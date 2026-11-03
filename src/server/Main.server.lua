@@ -13,6 +13,12 @@ local notify = Instance.new("RemoteEvent")
 notify.Name = "JunkstormNotice"
 notify.Parent = ReplicatedStorage
 
+-- The default Baseplate template would cover our lower generated island.
+local templateBaseplate = workspace:FindFirstChild("Baseplate")
+if templateBaseplate and templateBaseplate:IsA("BasePart") then
+    templateBaseplate:Destroy()
+end
+
 local previousWorld = workspace:FindFirstChild("JunkstormWorld")
 if previousWorld then previousWorld:Destroy() end
 
