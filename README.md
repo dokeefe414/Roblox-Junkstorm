@@ -14,7 +14,7 @@ A colorful Roblox scavenging prototype. Collect valuable junk, return to the saf
 6. Click **Play**. The world should spawn automatically. Interact with glowing objects using **E** (or touch prompts on mobile).
 7. Use **File > Publish to Roblox** to save the experience. Keep the experience private until testing is complete.
 
-The default template Baseplate may be visible under the generated map. You can delete the template Baseplate in Studio for a cleaner appearance.
+The server script automatically removes the default template Baseplate so the generated island is visible.
 
 ## Recommended longer-term workflow (Rojo + GitHub)
 
